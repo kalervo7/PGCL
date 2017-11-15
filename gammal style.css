@@ -1,0 +1,129 @@
+/*
+* multi-line comment
+*/
+p{ line-height: 1.3em;
+	font-size: 1.3em;
+	font-weight: normal;
+}
+h1, h2, h3, h4{
+    color: orange;
+	font-weight: normal;
+	line-height: 1.1em;
+	margin: 0 0 .5em 0;
+}
+h1{ font-size: 2.7em; font-family: arial;}
+h2{ font-size: 1.5em; }
+a{
+	color: black;
+	text-decoration: none;
+}
+	a:hover,
+	a:active{ text-decoration: underline; }
+
+/* you can structure your code's white space so that it is as readable for when you come back in the future or for other people to read and edit quickly */
+
+body{
+   /* font-size: 80%; line-height: 1.2em; width: 100%; margin: 0; background: #eee; */
+	font-size: 80%;
+	line-height: 1.2em;
+	margin: 0;
+    padding: 0;
+    width: 100%;
+    display: table;
+    background-color: #eee;
+          /*  color: #e2e2e2; */
+    font-family: arial;
+          /*  background-image: url('img/bg.jpg'); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    background-attachment: fixed;
+}
+/* you can put your code all in one line like above */
+#page{ 	margin-right: 150px; 
+		margin-left: 150px; 
+}
+
+/* or on different lines like below */
+#logo{
+	width: 35%;
+	margin-top: 5px;
+	font-family: georgia;
+	display: inline-block;
+}
+/* but try and be as concise as possible */
+#navbar{
+	width: 60%;
+	display: inline-block;
+	text-align: right;
+	float: right;
+	
+}
+	#navbar ul{
+				list-style-type: none;
+				margin: 0;
+				padding: 0;
+				overflow: hidden;
+				background-color: #333;
+				
+	}
+		#navbar  li{
+					float:left;
+					
+		}
+			#navbar li a{
+				padding: 14px 16px;
+				color: white;
+				display: block;
+				text-align: center;
+				text-decoration: none;
+				margin: auto;
+			}
+			#navbar li a:hover{
+				background-color: #111;
+				box-shadow: 0px 1px 1px #666;
+			}
+			#navbar li a:active{ background-color: #111; }
+
+#intro{
+	margin: 30px 0;
+	background: white;
+	padding: 20px;
+	clear: both;
+	border: 1px
+	outline-style: solid;
+	
+}
+#footer{
+	border-bottom: 1px #ccc solid;
+	margin-bottom: 10px;
+}
+	#footer p{
+		text-align: right;
+		text-transform: uppercase;
+		font-size: 80%;
+		color: grey;
+	}
+
+/* multiple styles seperated by a , */
+#intro,
+ul li a{ box-shadow: 0px 1px 1px #999;
+	text-align: center;
+	
+ }
+
+#plist{
+	text-align: left;	
+	position: relative;
+	padding: 0;
+	margin: 0;
+	
+				
+				}
+#alist{
+	text-align: left;	
+	position: relative;
+	padding: 0;
+	margin: 0;		
+				}
+				
