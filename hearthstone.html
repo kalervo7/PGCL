@@ -3,17 +3,83 @@
 <head>
 <link rel="stylesheet" type="text/css" href="stylesheet.css">
 <title>PGCL</title>
+<style>
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000;
+}
+
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	font-size: 24px;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+</style>
 </head>
 <body class="hs">
 
+<ul>
+  <li><a href="home.html">HOME</a></li>
+  <li><a href="hearthstone.html">HEARTHSTONE</a></li>
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">CSGO</a>
+    <div class="dropdown-content">
+      <a href="premier.html">PREMIER LEAGUE</a>
+      <a href="amateur.html">AMATEUR LEAGUE</a>
+    </div>
+  </li>
+</ul>
+
+<div class="hsinfo">
 <div>
-
-	<ul class="navbar">
-		<li><a href="home.html">HOME<a/></li>
-		<li><a href="csgo.html">CSGO<a/></li>
-		<li><a href="hearthstone.html">HEARTSTONE<a/></li>
-	</ul>
-
-	</div>
+	<h1 class="hsinforubrik">Hearthstone League</h1>
+</div>
+<div>
+<p class="hstxt">
+Info about hearthstone league. When is the new season. rules. schedule. and entry fee.
+</p>
+</div>
+</div>
 </body>
 </html>
