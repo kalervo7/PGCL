@@ -8,27 +8,30 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+	text-align: center;
     overflow: hidden;
     background-color: #000;
+	
 }
 
 li {
     float: left;
+
 }
 
 li a, .dropbtn {
     display: inline-block;
     color: white;
-    text-align: center;
+    
     padding: 14px 16px;
     text-decoration: none;
 	font-size: 24px;
+	text-transform: uppercase;
 }
 
 li a:hover, .dropdown:hover .dropbtn {
     background-color: red;
 }
-
 li.dropdown {
     display: inline-block;
 }
@@ -55,18 +58,25 @@ li.dropdown {
 .dropdown:hover .dropdown-content {
     display: block;
 }
+.fa {
+color: white;
+margin: 5px;
+width: auto;
+padding: 5px;
+}
 </style>
 </head>
 <body class="home">
-
+<script src="https://use.fontawesome.com/8cad8fa523.js"></script>
+<div id="nav">
 <ul>
-  <li><a href="home.html">HOME</a></li>
-  <li><a href="hearthstone.html">HEARTHSTONE</a></li>
+  <li><a href="home.html"><i class="fa fa-home" aria-hidden="true"></i></a></li>
+  <li><a href="hearthstone.html">hearthstone</a></li>
   <li class="dropdown">
-    <a href="javascript:void(0)" class="dropbtn">CSGO</a>
+    <a href="javascript:void(0)" class="dropbtn">csgo</a>
     <div class="dropdown-content">
-      <a href="premier.html">PREMIER LEAGUE</a>
-      <a href="amateur.html">AMATEUR LEAGUE</a>
+      <a href="premier.html">premier league</a>
+      <a href="amateur.html">amateur league</a>
     </div>
   </li>
 </ul>
@@ -81,10 +91,22 @@ Pargas Gaming Community rf (inofficially PGC) is an association founded 2014 wit
  for information and communication technology as a hobby and freetime occupation. The association arranges and supports LAN 
  events as well as other forms of IT and computer games related leisure activities. 
 
-PGC as an association has grown a lot in just a few years and we would like to become even more involved in the e-sports scene.
-We have seen that there is interest in the e-sports scene and therefore PGC has started hosting leagues within competitive 
+PGC as an association has grown a lot in just a few years and we would like to become even more involved with the youth.
+We noticed that there is interest in the e-sports scene and therefore PGC has started hosting leagues within competitive 
 games like Counter Strike: Global Offensive and Hearthstone.
 </p>
+<p>
+Like and follow us on social media! <i class="fa fa-thumbs-o-up" aria-hidden="true"></i>
+</p>
+<div class="social-icons fa-2x small-12 columns text-center">
+            <a href="https://www.facebook.com/PGCLeague/"><i class="fa fa-facebook-square"></i></a>
+            <a href="https://steamcommunity.com/groups/pgcleague"><i class="fa fa-steam"></i></a>
+            <a href="https://www.twitch.tv/pgcleague"><i class="fa fa-twitch"></i></a>
+            <a href="https://twitter.com/PGCLeague"><i class="fa fa-twitter"></i></a>
+            <a href="https://www.youtube.com/pgcleague"><i class="fa fa-youtube"></i></a>
+            <a href="https://www.linkedin.com/company/pgcleague"><i class="fa fa-linkedin"></i></a>
+        </div>
+	<!-- <div class="ebot"> <a href="https://ebot.pgcl.fi"><img src="ebot.png"></a> </div> -->
 </div>
 </div>
 </body
